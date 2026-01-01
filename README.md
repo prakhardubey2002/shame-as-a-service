@@ -10,10 +10,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/workflow/status/YOUR_USERNAME/shame-as-a-service/Tests?style=flat-square" alt="Build Status">
-  <img src="https://img.shields.io/github/issues/YOUR_USERNAME/shame-as-a-service?style=flat-square" alt="Issues">
-  <img src="https://img.shields.io/github/stars/YOUR_USERNAME/shame-as-a-service?style=flat-square" alt="Stars">
-  <img src="https://img.shields.io/github/forks/YOUR_USERNAME/shame-as-a-service?style=flat-square" alt="Forks">
+  <img src="https://img.shields.io/github/workflow/status/prakhardubey2002/shame-as-a-service/Tests?style=flat-square" alt="Build Status">
+  <img src="https://img.shields.io/github/issues/prakhardubey2002/shame-as-a-service?style=flat-square" alt="Issues">
+  <img src="https://img.shields.io/github/stars/prakhardubey2002/shame-as-a-service?style=flat-square" alt="Stars">
+  <img src="https://img.shields.io/github/forks/prakhardubey2002/shame-as-a-service?style=flat-square" alt="Forks">
 </p>
 
 # Shame as a Service 🎭
