@@ -2,6 +2,20 @@
   <img src="asset/shame-as-service.png" alt="Shame as a Service" width="600">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/NestJS-11.0.1-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS">
+  <img src="https://img.shields.io/badge/TypeScript-5.7.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/workflow/status/YOUR_USERNAME/shame-as-a-service/Tests?style=flat-square" alt="Build Status">
+  <img src="https://img.shields.io/github/issues/YOUR_USERNAME/shame-as-a-service?style=flat-square" alt="Issues">
+  <img src="https://img.shields.io/github/stars/YOUR_USERNAME/shame-as-a-service?style=flat-square" alt="Stars">
+  <img src="https://img.shields.io/github/forks/YOUR_USERNAME/shame-as-a-service?style=flat-square" alt="Forks">
+</p>
+
 # Shame as a Service 🎭
 
 A simple NestJS API that delivers country-specific shame messages. Perfect for adding a bit of humor to your applications or motivating your team with culturally-aware shame quotes.
@@ -9,6 +23,10 @@ A simple NestJS API that delivers country-specific shame messages. Perfect for a
 ## Summary
 
 Shame as a Service is a RESTful API that returns randomized shame messages tailored to different countries. The API automatically detects the requester's country from their IP address, or you can specify a country manually. It includes culturally-relevant shame quotes for multiple countries including USA, India, China, UK, Germany, Japan, Brazil, and more.
+
+## Rate Limiting
+
+The API is rate-limited to **200 requests per minute per IP address**. If you exceed this limit, you'll receive a `429 Too Many Requests` response.
 
 ## API Usage
 

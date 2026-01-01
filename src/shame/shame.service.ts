@@ -6,7 +6,6 @@ import * as geoip from 'geoip-lite';
 export class ShameService {
   private quotes = shameQuotes as Record<string, string[]>;
 
-
   private countryCodeMap: Record<string, string> = {
     US: 'usa',
     IN: 'india',
@@ -45,7 +44,6 @@ export class ShameService {
 
   getShame(country?: string): string {
     if (!country) {
-
       const randomCountry = this.getRandomCountry();
       const countryQuotes = this.quotes[randomCountry];
       return countryQuotes[Math.floor(Math.random() * countryQuotes.length)];
@@ -55,10 +53,8 @@ export class ShameService {
     const countryQuotes = this.quotes[normalizedCountry];
 
     if (!countryQuotes) {
-
       return `Shame! Your country code '${country}' is not recognized - even your API calls are broken!`;
     }
-
 
     return countryQuotes[Math.floor(Math.random() * countryQuotes.length)];
   }

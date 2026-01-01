@@ -5,7 +5,7 @@ import { getClientIp } from 'request-ip';
 
 @Controller()
 export class ShameController {
-  constructor(private readonly shameService: ShameService) { }
+  constructor(private readonly shameService: ShameService) {}
 
   @Get()
   getShame(
@@ -17,7 +17,6 @@ export class ShameController {
     ip?: string;
     detectedFromIp?: boolean;
   } {
-
     // eslint-disable-next-line @typescript-eslint/no-unsafe-call
     const clientIp = getClientIp(req) as string | null;
     let detectedCountry: string | null = null;
@@ -26,7 +25,6 @@ export class ShameController {
     if (clientIp && !isLocalhost) {
       detectedCountry = this.shameService.getCountryFromIp(clientIp);
     }
-
 
     let countryToUse: string | undefined =
       country || detectedCountry || undefined;

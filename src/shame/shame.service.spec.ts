@@ -59,11 +59,11 @@ describe('ShameService', () => {
 
     it('should return different messages on multiple calls (random)', () => {
       const messages = new Set();
-  
+
       for (let i = 0; i < 10; i++) {
         messages.add(service.getShame('usa'));
       }
-     
+
       expect(messages.size).toBeGreaterThanOrEqual(1);
     });
   });
@@ -76,14 +76,13 @@ describe('ShameService', () => {
 
     it('should return null for localhost IP', () => {
       const country = service.getCountryFromIp('127.0.0.1');
-  
+
       expect(country).toBeNull();
     });
 
     it('should handle valid IP addresses', () => {
-    
       const country = service.getCountryFromIp('8.8.8.8');
-     
+
       expect(country === null || typeof country === 'string').toBe(true);
     });
   });
@@ -101,7 +100,7 @@ describe('ShameService', () => {
       for (let i = 0; i < 20; i++) {
         countries.add(service.getRandomCountry());
       }
-      
+
       expect(countries.size).toBeGreaterThan(1);
     });
   });
