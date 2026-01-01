@@ -1,0 +1,401 @@
+{
+    "usa": [
+        "Shame on you! Your code has more bugs than a Silicon Valley startup has pivots.",
+        "For shame! You committed code without tests - that's more un-American than skipping coffee!",
+        "Shame! Your pull request is longer than a Hollywood movie and twice as dramatic.",
+        "Shame on you! You used console.log in production - even the Founding Fathers would disapprove!",
+        "Shame! Your code review comments are more passive-aggressive than a California wellness retreat."
+    ],
+    "india": [
+        "Shame! Your code is more broken than a Mumbai local train during rush hour.",
+        "For shame! You pushed to main without testing - even your chai would reject this code!",
+        "Shame on you! Your functions are longer than a Bollywood movie runtime!",
+        "Shame! Your error handling is weaker than a 2G connection in a remote village.",
+        "Shame! You wrote code at 2 AM - even the night shift security guard would say 'kya kar rahe ho?'"
+    ],
+    "china": [
+        "Shame! Your code quality is lower than your WeChat payment success rate.",
+        "For shame! You didn't follow the coding standards - even the Great Wall has better structure!",
+        "Shame on you! Your code is more chaotic than Beijing traffic during rush hour.",
+        "Shame! Your database queries are slower than dial-up internet in 1999.",
+        "Shame! You committed without code review - that's more reckless than jaywalking in Shanghai!"
+    ],
+    "uk": [
+        "Shame! Your code is more broken than the British weather forecast.",
+        "For shame! You pushed bugs to production - that's simply not cricket, old chap!",
+        "Shame on you! Your code comments are more sarcastic than a Monty Python sketch.",
+        "Shame! Your error messages are more polite than a Londoner saying 'sorry' for everything.",
+        "Shame! You wrote code without proper documentation - even the Queen would raise an eyebrow!"
+    ],
+    "germany": [
+        "Shame! Your code violates more rules than a German traffic regulation manual.",
+        "For shame! You didn't follow the coding standards - even Ordnung would be disappointed!",
+        "Shame on you! Your code is less efficient than a German engineering standard.",
+        "Shame! Your code structure is more disorganized than a non-German filing system.",
+        "Shame! You committed code without proper documentation - that's more chaotic than missing a train by one second!"
+    ],
+    "japan": [
+        "Shame! Your code quality is lower than a Japanese manufacturing standard.",
+        "For shame! You didn't follow the coding guidelines - even kaizen would reject this!",
+        "Shame on you! Your code is less precise than a sushi chef's knife work.",
+        "Shame! Your error handling is weaker than a bow that's not deep enough.",
+        "Shame! You wrote code without proper testing - that's more dishonorable than showing up late to a meeting!"
+    ],
+    "brazil": [
+        "Shame! Your code is more broken than a samba rhythm without the beat.",
+        "For shame! You pushed bugs to production - even a football match has better error handling!",
+        "Shame on you! Your code is more chaotic than Carnaval in Rio!",
+        "Shame! Your functions are longer than a Brazilian soap opera season.",
+        "Shame! You committed without testing - that's more reckless than crossing a busy São Paulo street!"
+    ],
+    "russia": [
+        "Shame! Your code is more broken than a Russian winter without proper heating.",
+        "For shame! You didn't follow the coding standards - even a nesting doll has better structure!",
+        "Shame on you! Your code is less reliable than a Lada in Siberian weather.",
+        "Shame! Your error handling is weaker than a weak ruble exchange rate.",
+        "Shame! You wrote code without documentation - that's more mysterious than a Russian novel!"
+    ],
+    "france": [
+        "Shame! Your code is more broken than a French strike schedule.",
+        "For shame! You pushed code without proper review - even a baguette has better structure!",
+        "Shame on you! Your code is less elegant than a French wine selection.",
+        "Shame! Your functions are longer than a French philosophical debate.",
+        "Shame! You committed without testing - that's more unacceptable than serving wine at the wrong temperature!"
+    ],
+    "canada": [
+        "Shame! Your code is more broken than a polite Canadian saying 'sorry' for your bugs.",
+        "For shame! You pushed to main without review - that's not very Canadian of you, eh!",
+        "Shame on you! Your code is less friendly than a Canadian border crossing.",
+        "Shame! Your error messages aren't apologetic enough - even your code should say 'sorry'!",
+        "Shame! You wrote code without documentation - that's more impolite than not holding the door open!"
+    ],
+    "australia": [
+        "Shame! Your code is more broken than a drop bear attack prevention system.",
+        "For shame! You pushed bugs to production - that's more dangerous than a spider in your boot!",
+        "Shame on you! Your code is less reliable than Australian internet speeds.",
+        "Shame! Your functions are longer than a cricket test match.",
+        "Shame! You committed without testing - that's more reckless than swimming in croc-infested waters!"
+    ],
+    "south-korea": [
+        "Shame! Your code is slower than a K-pop MV loading on dial-up.",
+        "For shame! You didn't follow coding standards - even Korean skincare has better routine!",
+        "Shame on you! Your code is less efficient than a Seoul subway system.",
+        "Shame! Your error handling is weaker than a weak Wi-Fi signal in Gangnam.",
+        "Shame! You wrote code without proper testing - that's more shameful than being late to a meeting!"
+    ],
+    "mexico": [
+        "Shame! Your code is more broken than a piñata at a birthday party.",
+        "For shame! You pushed bugs to production - even a taco stand has better quality control!",
+        "Shame on you! Your code is more chaotic than Mexico City traffic.",
+        "Shame! Your functions are longer than a Mexican telenovela plot.",
+        "Shame! You committed without testing - that's more reckless than crossing the street during rush hour!"
+    ],
+    "spain": [
+        "Shame! Your code is more broken than a siesta schedule during a deadline.",
+        "For shame! You pushed code without review - even a flamenco dancer has better rhythm!",
+        "Shame on you! Your code is less passionate than a Spanish football match.",
+        "Shame! Your error handling is weaker than a weak sangria recipe.",
+        "Shame! You wrote code without documentation - that's more unacceptable than serving paella without saffron!"
+    ],
+    "italy": [
+        "Shame! Your code is more broken than a pasta recipe without proper timing.",
+        "For shame! You pushed bugs to production - even Italian bureaucracy moves faster!",
+        "Shame on you! Your code is less elegant than a Ferrari design.",
+        "Shame! Your functions are longer than an Italian opera aria.",
+        "Shame! You committed without testing - that's more chaotic than Roman traffic!"
+    ],
+    "poland": [
+        "Shame! Your code is more broken than a Polish joke about Polish jokes.",
+        "For shame! You didn't follow coding standards - even a pierogi recipe has better structure!",
+        "Shame on you! Your code is less reliable than Polish internet during peak hours.",
+        "Shame! Your error handling is weaker than a weak złoty exchange rate.",
+        "Shame! You wrote code without documentation - that's more mysterious than Polish grammar!"
+    ],
+    "netherlands": [
+        "Shame! Your code is more broken than a Dutch bike path during tulip season.",
+        "For shame! You pushed code without review - even a windmill has better rotation logic!",
+        "Shame on you! Your code is less direct than a Dutch person's feedback.",
+        "Shame! Your error handling is weaker than a weak dike during high tide.",
+        "Shame! You committed without testing - that's more unacceptable than being late in the Netherlands!"
+    ],
+    "belgium": [
+        "Shame! Your code is more broken than Belgian chocolate left in the sun.",
+        "For shame! You pushed bugs to production - even a waffle has better structure!",
+        "Shame on you! Your code is less organized than a Belgian beer selection.",
+        "Shame! Your functions are longer than a Belgian political negotiation.",
+        "Shame! You wrote code without documentation - that's more chaotic than Brussels traffic!"
+    ],
+    "switzerland": [
+        "Shame! Your code is less precise than a Swiss watch mechanism.",
+        "For shame! You didn't follow coding standards - even Swiss neutrality has better boundaries!",
+        "Shame on you! Your code is less reliable than a Swiss bank vault.",
+        "Shame! Your error handling is weaker than weak Swiss chocolate.",
+        "Shame! You committed without testing - that's more unacceptable than being late in Switzerland!"
+    ],
+    "austria": [
+        "Shame! Your code is more broken than a Viennese waltz without rhythm.",
+        "For shame! You pushed code without review - even a schnitzel has better structure!",
+        "Shame on you! Your code is less elegant than a Mozart composition.",
+        "Shame! Your functions are longer than an Austrian coffee house conversation.",
+        "Shame! You wrote code without documentation - that's more chaotic than Alpine weather!"
+    ],
+    "sweden": [
+        "Shame! Your code is more broken than IKEA furniture without instructions.",
+        "For shame! You pushed bugs to production - even Swedish meatballs have better consistency!",
+        "Shame on you! Your code is less efficient than Swedish public transport.",
+        "Shame! Your error handling is weaker than weak Swedish coffee.",
+        "Shame! You committed without testing - that's more unacceptable than breaking fika tradition!"
+    ],
+    "norway": [
+        "Shame! Your code is more broken than a Norwegian fjord navigation system.",
+        "For shame! You didn't follow coding standards - even a Viking ship has better structure!",
+        "Shame on you! Your code is less reliable than Norwegian oil rigs.",
+        "Shame! Your functions are longer than a Norwegian winter night.",
+        "Shame! You wrote code without documentation - that's more chaotic than Northern Lights prediction!"
+    ],
+    "denmark": [
+        "Shame! Your code is more broken than a Danish pastry without proper layers.",
+        "For shame! You pushed code without review - even LEGO has better structure!",
+        "Shame on you! Your code is less happy than a Dane without hygge.",
+        "Shame! Your error handling is weaker than weak Danish beer.",
+        "Shame! You committed without testing - that's more unacceptable than being unhappy in Denmark!"
+    ],
+    "finland": [
+        "Shame! Your code is more broken than a Finnish sauna without proper heating.",
+        "For shame! You pushed bugs to production - even Nokia phones have better durability!",
+        "Shame on you! Your code is less efficient than Finnish education system.",
+        "Shame! Your functions are longer than a Finnish winter.",
+        "Shame! You wrote code without documentation - that's more chaotic than trying to find a Finn who talks!"
+    ],
+    "portugal": [
+        "Shame! Your code is more broken than Portuguese cork without proper sealing.",
+        "For shame! You pushed code without review - even port wine has better aging!",
+        "Shame on you! Your code is less smooth than Portuguese port wine.",
+        "Shame! Your error handling is weaker than weak Portuguese coffee.",
+        "Shame! You committed without testing - that's more unacceptable than serving bad cod in Portugal!"
+    ],
+    "greece": [
+        "Shame! Your code is more broken than Greek feta cheese without proper storage.",
+        "For shame! You pushed bugs to production - even Greek yogurt has better consistency!",
+        "Shame on you! Your code is less philosophical than a Greek symposium.",
+        "Shame! Your functions are longer than a Greek debt crisis discussion.",
+        "Shame! You wrote code without documentation - that's more chaotic than Greek bureaucracy!"
+    ],
+    "turkey": [
+        "Shame! Your code is more broken than Turkish delight left in the heat.",
+        "For shame! You pushed code without review - even Turkish coffee has better preparation!",
+        "Shame on you! Your code is less flavorful than Turkish baklava.",
+        "Shame! Your error handling is weaker than weak Turkish tea.",
+        "Shame! You committed without testing - that's more unacceptable than bad Turkish hospitality!"
+    ],
+    "ireland": [
+        "Shame! Your code is more broken than Irish weather forecasting.",
+        "For shame! You pushed bugs to production - even Guinness has better consistency!",
+        "Shame on you! Your code is less lucky than a four-leaf clover hunt.",
+        "Shame! Your functions are longer than an Irish pub storytelling session.",
+        "Shame! You wrote code without documentation - that's more chaotic than Irish road signs!"
+    ],
+    "czech-republic": [
+        "Shame! Your code is more broken than Czech beer without proper brewing.",
+        "For shame! You didn't follow coding standards - even Czech crystal has better structure!",
+        "Shame on you! Your code is less precise than Czech engineering.",
+        "Shame! Your error handling is weaker than weak Czech koruna.",
+        "Shame! You committed without testing - that's more unacceptable than bad Czech hospitality!"
+    ],
+    "romania": [
+        "Shame! Your code is more broken than Romanian internet during peak hours.",
+        "For shame! You pushed code without review - even Dracula's castle has better structure!",
+        "Shame on you! Your code is less mysterious than Transylvanian legends.",
+        "Shame! Your functions are longer than a Romanian bureaucratic process.",
+        "Shame! You wrote code without documentation - that's more chaotic than Bucharest traffic!"
+    ],
+    "hungary": [
+        "Shame! Your code is more broken than Hungarian goulash without proper spices.",
+        "For shame! You pushed bugs to production - even Hungarian paprika has better consistency!",
+        "Shame on you! Your code is less complex than Hungarian grammar.",
+        "Shame! Your error handling is weaker than weak Hungarian forint.",
+        "Shame! You committed without testing - that's more unacceptable than bad Hungarian hospitality!"
+    ],
+    "singapore": [
+        "Shame! Your code is more broken than Singaporean efficiency standards.",
+        "For shame! You pushed code without review - even Singapore Airlines has better service!",
+        "Shame on you! Your code is less organized than Singapore's urban planning.",
+        "Shame! Your functions are longer than a Singaporean queue.",
+        "Shame! You wrote code without documentation - that's more chaotic than breaking Singaporean rules!"
+    ],
+    "malaysia": [
+        "Shame! Your code is more broken than Malaysian internet during monsoon.",
+        "For shame! You pushed bugs to production - even nasi lemak has better structure!",
+        "Shame on you! Your code is less diverse than Malaysian cuisine.",
+        "Shame! Your error handling is weaker than weak Malaysian ringgit.",
+        "Shame! You committed without testing - that's more unacceptable than bad Malaysian hospitality!"
+    ],
+    "indonesia": [
+        "Shame! Your code is more broken than Indonesian traffic in Jakarta.",
+        "For shame! You pushed code without review - even rendang has better preparation!",
+        "Shame on you! Your code is less spicy than Indonesian sambal.",
+        "Shame! Your functions are longer than an Indonesian archipelago.",
+        "Shame! You wrote code without documentation - that's more chaotic than Indonesian bureaucracy!"
+    ],
+    "thailand": [
+        "Shame! Your code is more broken than Thai internet during Songkran.",
+        "For shame! You pushed bugs to production - even pad thai has better balance!",
+        "Shame on you! Your code is less spicy than Thai food.",
+        "Shame! Your error handling is weaker than weak Thai baht.",
+        "Shame! You committed without testing - that's more unacceptable than bad Thai hospitality!"
+    ],
+    "vietnam": [
+        "Shame! Your code is more broken than Vietnamese traffic in Ho Chi Minh City.",
+        "For shame! You pushed code without review - even pho has better structure!",
+        "Shame on you! Your code is less complex than Vietnamese coffee preparation.",
+        "Shame! Your functions are longer than a Vietnamese pho recipe.",
+        "Shame! You wrote code without documentation - that's more chaotic than Vietnamese bureaucracy!"
+    ],
+    "philippines": [
+        "Shame! Your code is more broken than Philippine internet during typhoon season.",
+        "For shame! You pushed bugs to production - even adobo has better consistency!",
+        "Shame on you! Your code is less festive than a Filipino fiesta.",
+        "Shame! Your error handling is weaker than weak Philippine peso.",
+        "Shame! You committed without testing - that's more unacceptable than bad Filipino hospitality!"
+    ],
+    "pakistan": [
+        "Shame! Your code is more broken than Pakistani internet during load shedding.",
+        "For shame! You pushed code without review - even biryani has better layers!",
+        "Shame on you! Your code is less spicy than Pakistani cuisine.",
+        "Shame! Your functions are longer than a Pakistani cricket match.",
+        "Shame! You wrote code without documentation - that's more chaotic than Pakistani traffic!"
+    ],
+    "bangladesh": [
+        "Shame! Your code is more broken than Bangladeshi internet during monsoon.",
+        "For shame! You pushed bugs to production - even hilsa fish has better preparation!",
+        "Shame on you! Your code is less resilient than Bangladeshi people during floods.",
+        "Shame! Your error handling is weaker than weak Bangladeshi taka.",
+        "Shame! You committed without testing - that's more unacceptable than bad Bangladeshi hospitality!"
+    ],
+    "taiwan": [
+        "Shame! Your code is more broken than Taiwanese efficiency standards.",
+        "For shame! You pushed code without review - even bubble tea has better consistency!",
+        "Shame on you! Your code is less precise than Taiwanese manufacturing.",
+        "Shame! Your functions are longer than a Taiwanese night market.",
+        "Shame! You wrote code without documentation - that's more chaotic than breaking Taiwanese rules!"
+    ],
+    "hong-kong": [
+        "Shame! Your code is more broken than Hong Kong efficiency during rush hour.",
+        "For shame! You pushed bugs to production - even dim sum has better timing!",
+        "Shame on you! Your code is less organized than Hong Kong's skyline.",
+        "Shame! Your error handling is weaker than weak Hong Kong dollar.",
+        "Shame! You committed without testing - that's more unacceptable than being late in Hong Kong!"
+    ],
+    "uae": [
+        "Shame! Your code is more broken than UAE internet during sandstorm.",
+        "For shame! You pushed code without review - even Dubai's skyline has better structure!",
+        "Shame on you! Your code is less luxurious than a UAE hotel.",
+        "Shame! Your functions are longer than a UAE shopping mall.",
+        "Shame! You wrote code without documentation - that's more chaotic than UAE traffic!"
+    ],
+    "saudi-arabia": [
+        "Shame! Your code is more broken than Saudi internet during sandstorm.",
+        "For shame! You pushed bugs to production - even Arabic coffee has better preparation!",
+        "Shame on you! Your code is less organized than Saudi oil production.",
+        "Shame! Your error handling is weaker than weak Saudi riyal.",
+        "Shame! You committed without testing - that's more unacceptable than bad Saudi hospitality!"
+    ],
+    "israel": [
+        "Shame! Your code is more broken than Israeli internet during peak hours.",
+        "For shame! You pushed code without review - even hummus has better consistency!",
+        "Shame on you! Your code is less innovative than Israeli startups.",
+        "Shame! Your functions are longer than a Tel Aviv startup pitch.",
+        "Shame! You wrote code without documentation - that's more chaotic than Tel Aviv traffic!"
+    ],
+    "egypt": [
+        "Shame! Your code is more broken than Egyptian internet during peak hours.",
+        "For shame! You pushed bugs to production - even koshari has better layers!",
+        "Shame on you! Your code is less flavorful than Egyptian koshari.",
+        "Shame! Your error handling is weaker than weak Egyptian pound.",
+        "Shame! You committed without testing - that's more unacceptable than bad Egyptian hospitality!"
+    ],
+    "south-africa": [
+        "Shame! Your code is more broken than South African load shedding schedule.",
+        "For shame! You pushed code without review - even biltong has better preparation!",
+        "Shame on you! Your code is less diverse than South African culture.",
+        "Shame! Your functions are longer than a South African cricket match.",
+        "Shame! You wrote code without documentation - that's more chaotic than South African traffic!"
+    ],
+    "nigeria": [
+        "Shame! Your code is more broken than Nigerian internet during generator failure.",
+        "For shame! You pushed bugs to production - even jollof rice has better consistency!",
+        "Shame on you! Your code is less vibrant than Nigerian music.",
+        "Shame! Your error handling is weaker than weak Nigerian naira.",
+        "Shame! You committed without testing - that's more unacceptable than bad Nigerian hospitality!"
+    ],
+    "kenya": [
+        "Shame! Your code is more broken than Kenyan internet during power outage.",
+        "For shame! You pushed code without review - even ugali has better structure!",
+        "Shame on you! Your code is less fast than a Kenyan marathon runner.",
+        "Shame! Your functions are longer than a Kenyan safari.",
+        "Shame! You wrote code without documentation - that's more chaotic than Nairobi traffic!"
+    ],
+    "argentina": [
+        "Shame! Your code is more broken than Argentine economy during inflation.",
+        "For shame! You pushed bugs to production - even asado has better timing!",
+        "Shame on you! Your code is less passionate than Argentine tango.",
+        "Shame! Your error handling is weaker than weak Argentine peso.",
+        "Shame! You committed without testing - that's more unacceptable than bad Argentine hospitality!"
+    ],
+    "chile": [
+        "Shame! Your code is more broken than Chilean internet during earthquake.",
+        "For shame! You pushed code without review - even pisco sour has better balance!",
+        "Shame on you! Your code is less stable than Chilean economy.",
+        "Shame! Your functions are longer than Chile's coastline.",
+        "Shame! You wrote code without documentation - that's more chaotic than Santiago traffic!"
+    ],
+    "colombia": [
+        "Shame! Your code is more broken than Colombian internet during rain.",
+        "For shame! You pushed bugs to production - even arepas have better consistency!",
+        "Shame on you! Your code is less vibrant than Colombian coffee.",
+        "Shame! Your error handling is weaker than weak Colombian peso.",
+        "Shame! You committed without testing - that's more unacceptable than bad Colombian hospitality!"
+    ],
+    "peru": [
+        "Shame! Your code is more broken than Peruvian internet in the mountains.",
+        "For shame! You pushed code without review - even ceviche has better freshness!",
+        "Shame on you! Your code is less fresh than Peruvian ceviche.",
+        "Shame! Your functions are longer than a Peruvian mountain range.",
+        "Shame! You wrote code without documentation - that's more chaotic than Lima traffic!"
+    ],
+    "venezuela": [
+        "Shame! Your code is more broken than Venezuelan internet during blackout.",
+        "For shame! You pushed bugs to production - even arepas have better structure!",
+        "Shame on you! Your code is less stable than Venezuelan economy.",
+        "Shame! Your error handling is weaker than weak Venezuelan bolivar.",
+        "Shame! You committed without testing - that's more unacceptable than Venezuelan inflation!"
+    ],
+    "new-zealand": [
+        "Shame! Your code is more broken than New Zealand internet in rural areas.",
+        "For shame! You pushed code without review - even pavlova has better structure!",
+        "Shame on you! Your code is less adventurous than a Kiwi bungee jump.",
+        "Shame! Your functions are longer than a New Zealand sheep count.",
+        "Shame! You wrote code without documentation - that's more chaotic than New Zealand weather!"
+    ],
+    "iran": [
+        "Shame! Your code is more broken than Iranian internet during sanctions.",
+        "For shame! You pushed bugs to production - even Persian rice has better layers!",
+        "Shame on you! Your code is less poetic than Persian literature.",
+        "Shame! Your error handling is weaker than weak Iranian rial.",
+        "Shame! You committed without testing - that's more unacceptable than bad Iranian hospitality!"
+    ],
+    "iraq": [
+        "Shame! Your code is more broken than Iraqi internet during peak hours.",
+        "For shame! You pushed code without review - even Iraqi cuisine has better preparation!",
+        "Shame on you! Your code is less flavorful than Iraqi cuisine.",
+        "Shame! Your functions are longer than a Baghdad traffic jam.",
+        "Shame! You wrote code without documentation - that's more chaotic than Baghdad traffic!"
+    ],
+    "afghanistan": [
+        "Shame! Your code is more broken than Afghan internet during peak hours.",
+        "For shame! You pushed code without review - even Afghan cuisine has better preparation!",
+        "Shame on you! Your code is less flavorful than Afghan cuisine.",
+        "Shame! Your functions are longer than a Kabul traffic jam.",
+        "Shame! You wrote code without documentation - that's more chaotic than Kabul traffic!"
+    ]
+}
