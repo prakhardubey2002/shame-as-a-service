@@ -59,11 +59,11 @@ describe('ShameService', () => {
 
     it('should return different messages on multiple calls (random)', () => {
       const messages = new Set();
-      // Call multiple times to test randomness
+  
       for (let i = 0; i < 10; i++) {
         messages.add(service.getShame('usa'));
       }
-      // Should have at least 2 different messages (unless very unlucky)
+     
       expect(messages.size).toBeGreaterThanOrEqual(1);
     });
   });
@@ -76,14 +76,14 @@ describe('ShameService', () => {
 
     it('should return null for localhost IP', () => {
       const country = service.getCountryFromIp('127.0.0.1');
-      // geoip-lite might return null for localhost
+  
       expect(country).toBeNull();
     });
 
     it('should handle valid IP addresses', () => {
-      // Test with a known IP (8.8.8.8 is Google DNS, typically US)
+    
       const country = service.getCountryFromIp('8.8.8.8');
-      // May return null or a country code depending on geoip-lite database
+     
       expect(country === null || typeof country === 'string').toBe(true);
     });
   });
@@ -101,9 +101,8 @@ describe('ShameService', () => {
       for (let i = 0; i < 20; i++) {
         countries.add(service.getRandomCountry());
       }
-      // Should have multiple different countries
+      
       expect(countries.size).toBeGreaterThan(1);
     });
   });
 });
-

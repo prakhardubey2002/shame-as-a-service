@@ -5,7 +5,6 @@ import { Request } from 'express';
 
 describe('ShameController', () => {
     let controller: ShameController;
-    let service: ShameService;
 
     const mockShameService = {
         getShame: jest.fn(),
@@ -25,7 +24,6 @@ describe('ShameController', () => {
         }).compile();
 
         controller = module.get<ShameController>(ShameController);
-        service = module.get<ShameService>(ShameService);
     });
 
     afterEach(() => {
@@ -176,4 +174,3 @@ describe('ShameController', () => {
         });
     });
 });
-

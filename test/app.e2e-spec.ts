@@ -27,8 +27,10 @@ describe('ShameController (e2e)', () => {
       .expect((res) => {
         expect(res.body).toHaveProperty('message');
         expect(res.body).toHaveProperty('country');
-        expect(typeof res.body.message).toBe('string');
-        expect(res.body.message.length).toBeGreaterThan(0);
+        expect(typeof (res.body as { message: string }).message).toBe('string');
+        expect(
+          (res.body as { message: string }).message.length,
+        ).toBeGreaterThan(0);
       });
   });
 
@@ -39,8 +41,9 @@ describe('ShameController (e2e)', () => {
       .expect((res) => {
         expect(res.body).toHaveProperty('message');
         expect(res.body).toHaveProperty('country', 'usa');
-        expect(typeof res.body.message).toBe('string');
-        expect(res.body.message.toLowerCase()).toContain('shame');
+        const body = res.body as { message: string; country: string };
+        expect(typeof body.message).toBe('string');
+        expect(body.message.toLowerCase()).toContain('shame');
       });
   });
 
@@ -51,7 +54,8 @@ describe('ShameController (e2e)', () => {
       .expect((res) => {
         expect(res.body).toHaveProperty('message');
         expect(res.body).toHaveProperty('country', 'india');
-        expect(typeof res.body.message).toBe('string');
+        const body = res.body as { message: string; country: string };
+        expect(typeof body.message).toBe('string');
       });
   });
 
@@ -62,7 +66,8 @@ describe('ShameController (e2e)', () => {
       .expect((res) => {
         expect(res.body).toHaveProperty('message');
         expect(res.body).toHaveProperty('country', 'invalid');
-        expect(res.body.message).toContain('not recognized');
+        const body = res.body as { message: string; country: string };
+        expect(body.message).toContain('not recognized');
       });
   });
 
@@ -72,7 +77,8 @@ describe('ShameController (e2e)', () => {
       .expect(200)
       .expect((res) => {
         expect(res.body).toHaveProperty('ip');
-        expect(typeof res.body.ip).toBe('string');
+        const body = res.body as { ip: string };
+        expect(typeof body.ip).toBe('string');
       });
   });
 
@@ -83,7 +89,8 @@ describe('ShameController (e2e)', () => {
       .expect((res) => {
         expect(res.body).toHaveProperty('message');
         expect(res.body).toHaveProperty('country');
-        expect(typeof res.body.message).toBe('string');
+        const body = res.body as { message: string; country: string };
+        expect(typeof body.message).toBe('string');
       });
   });
 });

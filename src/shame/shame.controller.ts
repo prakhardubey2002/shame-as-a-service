@@ -1,7 +1,7 @@
 import { Controller, Get, Query, Req } from '@nestjs/common';
 import type { Request } from 'express';
 import { ShameService } from './shame.service';
-import * as requestIp from 'request-ip';
+import { getClientIp } from 'request-ip';
 
 @Controller()
 export class ShameController {
@@ -11,9 +11,15 @@ export class ShameController {
   getShame(
     @Req() req: Request,
     @Query('country') country?: string,
-  ): { message: string; country: string; ip?: string; detectedFromIp?: boolean } {
-    // Always detect country from IP first
-    const clientIp = requestIp.getClientIp(req);
+  ): {
+    message: string;
+    country: string;
+    ip?: string;
+    detectedFromIp?: boolean;
+  } {
+
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-call
+    const clientIp = getClientIp(req) as string | null;
     let detectedCountry: string | null = null;
     const isLocalhost = clientIp === '::1' || clientIp === '127.0.0.1';
 
@@ -21,9 +27,9 @@ export class ShameController {
       detectedCountry = this.shameService.getCountryFromIp(clientIp);
     }
 
-    // Use provided country parameter as override, otherwise use detected country
-    // For localhost, use a random country for testing purposes
-    let countryToUse: string | undefined = country || detectedCountry || undefined;
+
+    let countryToUse: string | undefined =
+      country || detectedCountry || undefined;
     if (!countryToUse && isLocalhost) {
       countryToUse = this.shameService.getRandomCountry();
     }
@@ -34,7 +40,14 @@ export class ShameController {
       message,
       country: countryToUse || 'unknown',
       ...(clientIp && { ip: clientIp }),
-      ...(detectedCountry && !country && !isLocalhost && { detectedFromIp: true }),
+      ...(detectedCountry &&
+        !country &&
+        !isLocalhost && { detectedFromIp: true }),
+    } as {
+      message: string;
+      country: string;
+      ip?: string;
+      detectedFromIp?: boolean;
     };
   }
 }
