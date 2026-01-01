@@ -18,33 +18,105 @@
   <img src="https://img.shields.io/github/forks/prakhardubey2002/shame-as-a-service?style=flat-square" alt="Forks">
 </p>
 
-# Shame as a Service 🎭
+---
 
-A simple NestJS API that delivers country-specific shame messages. Perfect for adding a bit of humor to your applications or motivating your team with culturally-aware shame quotes.
+# Shame-As-A-Service
 
-## Summary
+> Because logs warn you.  
+> Errors stop you.  
+> **But shame changes you.**
 
-Shame as a Service is a RESTful API that returns randomized shame messages tailored to different countries. The API automatically detects the requester's country from their IP address, or you can specify a country manually. It includes culturally-relevant shame quotes for multiple countries including USA, India, China, UK, Germany, Japan, Brazil, and more.
+An absurdly serious NestJS API that returns **culturally-aware shame messages**
+based on your country — automatically detected from your IP or explicitly provided.
 
-## Rate Limiting
+Perfect for:
 
-The API is rate-limited to **200 requests per minute per IP address**. If you exceed this limit, you'll receive a `429 Too Many Requests` response.
+- Bad code
+- Failed builds
+- Questionable commits
+- Poor life choices (optional)
+
+---
+
+## 10-Second Demo
+
+```bash
+curl https://shame-as-a-service.vercel.app/?country=india
+```
+
+```json
+{
+  "message": "Shame! Your code is more broken than a Mumbai local train during rush hour.",
+  "country": "india"
+}
+```
+
+That's it.
+You're already being judged.
+
+---
+
+## Why does this exist?
+
+Because:
+
+- You committed directly to `main`
+- You skipped tests
+- You restarted the server instead of fixing the bug
+- And nothing stopped you
+
+Now something will.
+
+---
+
+## What it does
+
+- Returns **random shame messages**
+- Detects country automatically using IP
+- Supports **country-specific shame**
+- Rate-limited to prevent emotional damage
+- Deployed on **Vercel**
+- Built with **NestJS + TypeScript**
+
+---
+
+## Try It Live
+
+**Base URL:**
+
+[https://shame-as-a-service.vercel.app](https://shame-as-a-service.vercel.app)
+
+### Examples
+
+**Random shame (auto-detect country):**
+
+```bash
+curl https://shame-as-a-service.vercel.app/
+```
+
+**Country-specific shame:**
+
+```bash
+curl https://shame-as-a-service.vercel.app/?country=usa
+curl https://shame-as-a-service.vercel.app/?country=india
+curl https://shame-as-a-service.vercel.app/?country=china
+```
+
+---
 
 ## API Usage
 
-### Get a Shame Message
+### `GET /`
 
-**Endpoint:** `GET /`
+Returns a shame message.
 
-Returns a random shame message. The API automatically detects your country from your IP address.
+**Query Params**
 
-**Example Request:**
+| Param     | Description                                  |
+| --------- | -------------------------------------------- |
+| `country` | Optional country code (`india`, `usa`, etc.) |
 
-```bash
-curl http://localhost:3000
-```
-
-**Example Response:**
+**Example Response**
 
 ```json
 {
@@ -55,68 +127,116 @@ curl http://localhost:3000
 }
 ```
 
-### Get a Shame Message for a Specific Country
+---
 
-**Endpoint:** `GET /?country=<country-code>`
+## Supported Countries
 
-Specify a country to get a country-specific shame message.
-
-**Example Request:**
-
-```bash
-curl http://localhost:3000?country=india
+```
+usa, india, china, uk, germany, japan,
+brazil, russia, france, canada,
+australia, south-korea, mexico,
+spain, italy, poland
 ```
 
-**Example Response:**
+PRs welcome to add more.
 
-```json
-{
-  "message": "Shame! Your code is more broken than a Mumbai local train during rush hour.",
-  "country": "india"
-}
+---
+
+## Integrations
+
+Shame-As-A-Service works great with:
+
+- **GitHub Actions** – shame yourself when CI fails
+- **Test pipelines** – failed test → instant judgment
+- **Slack bots** – shame your team publicly
+- **Console logs** – because red text isn't enough
+
+### GitHub Actions (fail → shame)
+
+```yaml
+- name: Shame me
+  if: failure()
+  run: curl https://shame-as-a-service.vercel.app/?country=usa
 ```
 
-**Supported Countries:**
+---
 
-- `usa`, `india`, `china`, `uk`, `germany`, `japan`, `brazil`, `russia`, `france`, `canada`, `australia`, `south-korea`, `mexico`, `spain`, `italy`, `poland`
+## Rate Limiting
 
-## Project Setup
+- **200 requests / minute / IP**
+- Exceeding this returns `429 Too Many Requests`
+- Because too much shame isn't healthy
+
+---
+
+## Local Development
 
 ### Prerequisites
 
-- Node.js (v18 or higher)
+- Node.js 18+
 - npm or yarn
 
-### Installation
+### Install
 
 ```bash
 npm install
 ```
 
-### Running the Application
+### Run
 
 ```bash
-# development mode
 npm run start:dev
-
-# production mode
-npm run start:prod
 ```
 
-The API will be available at `http://localhost:3000`
+API available at:
 
-## Development
+```
+http://localhost:3000
+```
+
+---
+
+## Scripts
 
 ```bash
-# build
 npm run build
-
-# format code
 npm run format
-
-# lint
 npm run lint
-
-# test
 npm run test
 ```
+
+---
+
+## Contributing
+
+This is probably the easiest open-source project you'll ever contribute to.
+
+Ways to help:
+
+- Add a new shame message
+- Add a new country
+- Improve existing insults
+- Fix typos (yes, even that)
+
+No complex logic.
+Just good judgment.
+
+---
+
+## Disclaimer
+
+All shame is fictional.
+
+Any resemblance to your actual code is entirely your fault.
+
+---
+
+## If this made you laugh
+
+Give it a star.
+
+It feeds the shame engine.
+
+---
+
+Built with NestJS and disappointment.
