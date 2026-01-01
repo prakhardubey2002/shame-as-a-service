@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="asset/shame-as-service.png" alt="Shame as a Service" width="600">
+</p>
+
 # Shame as a Service 🎭
 
 A simple NestJS API that delivers country-specific shame messages. Perfect for adding a bit of humor to your applications or motivating your team with culturally-aware shame quotes.
@@ -96,4 +100,3 @@ npm run lint
 # test
 npm run test
 ```
-
