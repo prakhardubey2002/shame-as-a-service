@@ -11,6 +11,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/actions/workflow/status/prakhardubey2002/shame-as-a-service/test.yml?branch=main&style=flat-square" alt="Build Status">
+  <img src="https://img.shields.io/uptimerobot/status/m802078862?style=flat-square" alt="Uptime Status">
+  <img src="https://img.shields.io/uptimerobot/ratio/m802078862?style=flat-square" alt="Uptime Ratio">
   <img src="https://img.shields.io/github/issues/prakhardubey2002/shame-as-a-service?style=flat-square" alt="Issues">
   <img src="https://img.shields.io/github/stars/prakhardubey2002/shame-as-a-service?style=flat-square" alt="Stars">
   <img src="https://img.shields.io/github/forks/prakhardubey2002/shame-as-a-service?style=flat-square" alt="Forks">
