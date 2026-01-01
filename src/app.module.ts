@@ -4,4 +4,4 @@ import { ShameModule } from './shame/shame.module';
 @Module({
   imports: [ShameModule],
 })
-export class AppModule {}
+export class AppModule { }
